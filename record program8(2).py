@@ -1,0 +1,6 @@
+file1=open("f1.txt","r")
+file=open("AI.txt","a")
+x=file1.read()
+file.write(x)
+file1.close()
+file.close()
